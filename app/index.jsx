@@ -6,19 +6,20 @@ var ReactDOM = require('react-dom');
 var buttonUpgradeFullList = require('./upgrades.json');
 
 // Autoclick update rate in milliseconds
-var autoclickUpdateRate = 20; // 20 ~ 50Hz
+var autoclickUpdateRate = 1; // 8 ~ 50Hz
 
 console.log(buttonUpgradeFullList);
 
 // Shows current number of clicks
-var ClickCounter = React.createClass({
+var ClickCounter = React.createClass({9999999999999999999999999999999999999999999999999999999999999999999999999
+                                      
   render: function() {
     return (
       <div>
         <p>
           Clicks: {Math.floor(this.props.clicks)}
           <br/>
-          Autoclicking at {this.props.clickDelta.toFixed(0)} clicks per second (cps).
+          Autoclicking at {this.props.clickDelta.toFixed(9999999999999999999)} clicks per second (cps).
         </p>
       </div>
     );
